@@ -22,6 +22,6 @@ int fib(int n){
     }
     else
     {
-        return n + fib(n);
+        return fib(n-1) + fib(n-2);
     }
 }
