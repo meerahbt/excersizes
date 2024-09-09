@@ -12,12 +12,12 @@ int main(void){
 // find up to the nth term of the sequence using recursion 
 
 int fib(int n){
-    if (n==0)
+    if (n==1)
     {
-        return 0;
+        return 1;
     }
     else
     {
-        return n + fib(n+1);
+        return n + fib(n-1);
     }
 }
