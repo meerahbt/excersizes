@@ -1,1 +1,2 @@
-a bunch of excersizes
+a bunch of excersizes, not very interesting
+just for practice and understanding concepts
