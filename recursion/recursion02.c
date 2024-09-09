@@ -18,6 +18,6 @@ int fib(int n){
     }
     else
     {
-        return n + fib(n+1);
+        return n-1 + fib(n);
     }
 }
