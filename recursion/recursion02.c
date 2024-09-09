@@ -22,6 +22,6 @@ int fib(int n){
     }
     else
     {
-        return fib(n-1) + fib(n-2);
+        return fib(n-1) + fib(n-2); // we need to add the two numbers before the nth term and keep doing so till we hit the 2 special cases
     }
 }
