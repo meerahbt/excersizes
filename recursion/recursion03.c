@@ -15,7 +15,7 @@ int sum(int n){
     }
     else
     {
-        return (n) + sum(n % 10);
+        return (n % 10) + sum(n);
     }
 }
 
