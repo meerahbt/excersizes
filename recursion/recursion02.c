@@ -9,15 +9,15 @@ int main(void){
 // fibonacci sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...etc. 
 // starts with 0 
 
-// find up to the nth term of the sequence using recursion 
+// find the nth term of the sequence using recursion 
 
 int fib(int n){
     if (n==1)
     {
-        return 1;
+        return 0;
     }
     else
     {
-        return n + fib(n-1);
+        return n + fib(n+1);
     }
 }
